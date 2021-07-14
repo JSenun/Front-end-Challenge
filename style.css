@@ -1,0 +1,146 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.page-header {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 25px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 70px;
+
+}
+
+.header-bg {
+    background: url("/imgs/bg1.jpg") no-repeat;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.navitens {
+    margin-right: 45px;
+    padding-bottom: 15px;
+}
+
+.navitens:hover {
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    color: #0f3479;
+}
+
+.navitens>.down-arrow {
+    font-size: 15px;
+}
+
+.dropdown-list {
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    padding: 2px 25px 10px 10px;
+    color: #0f3479;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.dropdown-item {
+    padding: 5px 0px 0.3px 0px;
+}
+
+.dropdown-item:hover {
+    border-bottom: 1px solid #0f3479;
+}
+
+.dp-1 {
+    position: absolute;
+}
+
+.dp-2 {
+    position: absolute;
+}
+
+.dp-3 {
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn1 {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 5px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 500ms ;
+
+}
+
+.btn1:hover {
+
+    background-color: white;
+    color: #0f3479;
+    transition: 500ms;
+
+}
+
+.btn2 {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 5px 18px;
+
+    background-color: white;
+    color: #0f3479;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn3 {
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 5px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.header-content{
+    align-self: center;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.header-subtitle {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.btn-container-content {
+    margin-top: 25px;
+}
