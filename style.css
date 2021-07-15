@@ -2,6 +2,10 @@ body{
     font-family: 'Rajdhani', sans-serif;
 }
 
+
+
+/* Header */
+
 .page-header {
     color: white;
     font-size: 20px;
@@ -11,6 +15,8 @@ body{
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 70px;
+    user-select: none;
+
 
 }
 
@@ -24,6 +30,7 @@ body{
 }
 
 .navbar {
+    margin: 0px 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -51,7 +58,7 @@ body{
 }
 
 .dropdown-list {
-    text-align: center;
+    text-align: justify;
     background-color: white;
     margin-top: 10px;
     padding: 2px 25px 10px 10px;
@@ -86,11 +93,13 @@ body{
 .btn1 {
     color: white;
     font-size: 18px;
+    font-weight: 600;
     margin-right: 10px;
     padding: 5px 18px;
     border-radius: 20px;
     text-decoration: none;
     transition: 500ms ;
+    user-select: none;
 
 }
 
@@ -104,6 +113,7 @@ body{
 
 .btn2 {
     font-size: 18px;
+    font-weight: 600;
     margin-left: 10px;
     padding: 5px 18px;
 
@@ -117,6 +127,7 @@ body{
     color: white;
     border: 1px solid white;
     font-size: 18px;
+    font-weight: 600;
     margin-right: 10px;
     padding: 5px 18px;
     border-radius: 20px;
@@ -143,4 +154,94 @@ body{
 
 .btn-container-content {
     margin-top: 25px;
+}
+
+/* Top Container */
+
+.container {
+    width: 100%;
+}
+
+.top-container {
+    margin: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.top-title {
+    font-size: 45px;
+    font-weight: 500;
+    color: #122a57;
+    margin: 10px 0px 50px 0px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top-text-content {
+    max-width: 40%;
+    text-align:left;
+}
+
+.top-image img {
+    max-width: 600px;
+}
+
+.text-top-1 {
+    margin: 15px 0px 25px 0px;
+}
+
+.text-top-2 {
+    margin: 15px 0px 25px 0px;
+}
+
+.text-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #122a57;
+    padding-bottom: 25px;
+}
+
+.text-body{
+    line-height: 25px;
+}
+
+
+/* Footer */
+
+.page-footer {
+    color: white;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top-right-radius: 70px;
+    user-select: none;
+}
+
+.footer-bg {
+    background-color: rgb(22, 21, 27);
+}
+
+.list-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.footer-list-itens {
+    color: rgb(138, 135, 135);
+    padding-bottom: 20px;
+
+}
+
+.footer-list-itens a {
+    text-decoration: none;
+    color: rgb(138, 135, 135);
 }
