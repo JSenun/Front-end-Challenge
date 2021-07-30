@@ -23,5 +23,3 @@ navbarItem3.addEventListener("mouseover", () => {
 navbarItem3.addEventListener("mouseout", () => {
     dropdownLists[2].classList.add("hidden");
 })
-
-
